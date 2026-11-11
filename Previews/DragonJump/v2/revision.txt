@@ -1,0 +1,2 @@
+落地修正版 v2：加寬承接岩面，修正前爪著地與後腳跟上後站穩。使用內建 image_gen 修改連續圖，再拆格封裝 GIF；未導入遊戲。保留 v1。
+提示詞重點：front paws land flat inside ledge; hind paws follow onto a broad solid rock; final four soles supported by rock with contact shadows.

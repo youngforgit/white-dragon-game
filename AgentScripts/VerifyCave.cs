@@ -1,0 +1,40 @@
+var g=UnityEngine.Object.FindAnyObjectByType<DragonCave.CaveDragon>();
+g.autoActivity=false;
+var results=new System.Collections.Generic.List<string>();
+void Check(bool ok,string label){if(!ok)throw new System.Exception(label);results.Add(label);}
+async System.Threading.Tasks.Task Wait(System.Func<bool> condition,int ms=15000){var timer=System.Diagnostics.Stopwatch.StartNew();while(!condition()&&timer.ElapsedMilliseconds<ms)await System.Threading.Tasks.Task.Delay(40);if(!condition())throw new System.Exception("Timeout: "+g.state);}
+await Wait(()=>g.state==DragonCave.DragonState.Idle);
+int frame=UnityEngine.Time.frameCount;await System.Threading.Tasks.Task.Delay(150);Check(UnityEngine.Time.frameCount>frame,"Player loop advances");
+Check(!System.IO.Directory.Exists("Assets/LittleFlame"),"Old demo deleted");
+Check(DragonCave.CaveDragon.IsWater(new UnityEngine.Vector2(.266f,.3f)),"Waterfall stream excluded");
+Check(DragonCave.CaveDragon.IsWater(new UnityEngine.Vector2(.35f,.58f)),"Pool excluded");
+for(int i=0;i<g.perches.Length;i++){Check(!DragonCave.CaveDragon.IsWater(g.perches[i].screenPoint),"Dry perch "+i);foreach(int j in g.perches[i].neighbors)Check(g.CanTraverse(i,j),"Safe edge "+i+"-"+j);}
+g.currentPerch=3;g.transform.position=g.perches[3].World;g.depth=g.perches[3].depthScale;
+Check(g.TravelTo(9),"Start jump to rock shelf");
+g.ClickDragon();Check(g.pendingClick&&g.state==DragonCave.DragonState.Jumping,"Click queued until landing");
+await Wait(()=>g.state==DragonCave.DragonState.Responding&&g.menu.activeSelf);
+Check(g.currentPerch==9&&UnityEngine.Vector3.Distance(g.transform.position,g.perches[9].World)<.01f,"Feet reach authored landing point");
+Check(UnityEngine.Mathf.Abs(g.depth-g.perches[9].depthScale)<.001f,"Depth matches shelf distance");
+Check(g.completedJumps>0,"Jump completed");
+Check(g.cloudButton.gameObject.activeSelf&&!g.wakeButton.gameObject.activeSelf,"Awake cloud menu");
+g.CloseMenu();
+g.currentPerch=0;g.transform.position=g.perches[0].World;g.depth=g.perches[0].depthScale;
+typeof(DragonCave.CaveDragon).GetField("breathAt",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance).SetValue(g,UnityEngine.Time.time);
+await Wait(()=>g.noseEyesClosed);
+Check(g.approved.playingClip=="Nasal"&&g.approved.playingFrame>=3&&g.approved.playingFrame<=8,"Awake nasal breath uses closed-eye source frames");
+await Wait(()=>!g.noseEyesClosed);
+g.EnterSleep();Check(g.state==DragonCave.DragonState.Sleeping&&g.approved.playingClip=="Sleep","Curled sleeping source frames");
+typeof(DragonCave.CaveDragon).GetField("breathAt",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance).SetValue(g,UnityEngine.Time.time);
+await Wait(()=>g.noseEyesClosed);Check(g.approved.playingClip=="Sleep","Sleeping nasal breath keeps eyes closed");await Wait(()=>!g.noseEyesClosed);
+g.ClickDragon();await Wait(()=>g.menu.activeSelf);
+Check(g.state==DragonCave.DragonState.SleepResponse&&g.approved.playingClip=="Sleep","Sleep click stays curled and reveals wake option");
+g.wakeButton.onClick.Invoke();await Wait(()=>g.state==DragonCave.DragonState.Idle);Check(g.approved.playingClip=="Nasal","Wake restores standing");
+g.ClickDragon();await Wait(()=>g.menu.activeSelf);g.cloudButton.onClick.Invoke();
+await Wait(()=>g.state==DragonCave.DragonState.Charging&&g.currentBellyScale>1.1f);Check(g.approved.playingClip=="Cloud","Deep inhale uses approved belly expansion sequence");
+await Wait(()=>g.state==DragonCave.DragonState.Exhaling);await System.Threading.Tasks.Task.Delay(1500);
+Check(g.approved.playingClip=="Cloud"&&g.approved.playingFrame>=8,"Approved large cloud occlusion frames played");
+Check(g.dragon.sortingOrder>UnityEngine.GameObject.Find("Approved cave background").GetComponent<UnityEngine.SpriteRenderer>().sortingOrder,"Cloud frame renders over cave background");
+await Wait(()=>g.state==DragonCave.DragonState.Idle);Check(g.completedClouds>0,"Cloud interaction completes and resumes idle");
+g.autoActivity=true;
+System.IO.File.WriteAllText("Screenshots/CaveVerification.txt",string.Join("\n",results));
+return results;

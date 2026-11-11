@@ -1,0 +1,79 @@
+{
+  "status": "待使用者確認，尚未導入遊戲。",
+  "method": "內建 image_gen 產生各動作連續圖，依格切分後合成 GIF。未額外補幀或用淡化混合。",
+  "loop_note": "行走為循環動作。下跳與喚醒完成後停留，再切回起始畫面重播。睡眠點擊回應閉眼收尾。",
+  "motions": [
+    {
+      "action": "walk",
+      "frames": 8,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "source": "walk/contact-sheet.png"
+    },
+    {
+      "action": "jump-down",
+      "frames": 16,
+      "durations_ms": [
+        600,
+        140,
+        140,
+        100,
+        70,
+        70,
+        70,
+        70,
+        70,
+        90,
+        100,
+        110,
+        120,
+        130,
+        180,
+        900
+      ],
+      "source": "jump-down/contact-sheet.png"
+    },
+    {
+      "action": "wake",
+      "frames": 12,
+      "durations_ms": [
+        600,
+        160,
+        160,
+        180,
+        180,
+        220,
+        220,
+        220,
+        220,
+        220,
+        250,
+        900
+      ],
+      "source": "wake/contact-sheet.png"
+    },
+    {
+      "action": "sleep-response",
+      "frames": 8,
+      "durations_ms": [
+        900,
+        130,
+        160,
+        350,
+        350,
+        160,
+        160,
+        1000
+      ],
+      "source": "sleep-response/contact-sheet.png"
+    }
+  ]
+}

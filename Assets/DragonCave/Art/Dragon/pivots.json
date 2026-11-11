@@ -1,0 +1,116 @@
+{
+  "poses": [
+    {
+      "index": 0,
+      "pivotX": 0.36,
+      "pivotY": 0.22291021671826627,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 1,
+      "pivotX": 0.36,
+      "pivotY": 0.22600619195046434,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 2,
+      "pivotX": 0.36,
+      "pivotY": 0.23839009287925694,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 3,
+      "pivotX": 0.36,
+      "pivotY": 0.22291021671826627,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 4,
+      "pivotX": 0.36,
+      "pivotY": 0.22910216718266252,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 5,
+      "pivotX": 0.36,
+      "pivotY": 0.22910216718266252,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 6,
+      "pivotX": 0.36,
+      "pivotY": 0.22600619195046434,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 7,
+      "pivotX": 0.36,
+      "pivotY": 0.22910216718266252,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 8,
+      "pivotX": 0.36,
+      "pivotY": 0.25308641975308643,
+      "width": 304,
+      "height": 324
+    },
+    {
+      "index": 9,
+      "pivotX": 0.36,
+      "pivotY": 0.3858024691358025,
+      "width": 304,
+      "height": 324
+    },
+    {
+      "index": 10,
+      "pivotX": 0.36,
+      "pivotY": 0.2808641975308642,
+      "width": 304,
+      "height": 324
+    },
+    {
+      "index": 11,
+      "pivotX": 0.36,
+      "pivotY": 0.24691358024691357,
+      "width": 304,
+      "height": 324
+    },
+    {
+      "index": 12,
+      "pivotX": 0.36,
+      "pivotY": 0.3281733746130031,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 13,
+      "pivotX": 0.36,
+      "pivotY": 0.3281733746130031,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 14,
+      "pivotX": 0.36,
+      "pivotY": 0.28792569659442724,
+      "width": 304,
+      "height": 323
+    },
+    {
+      "index": 15,
+      "pivotX": 0.36,
+      "pivotY": 0.281733746130031,
+      "width": 304,
+      "height": 323
+    }
+  ]
+}

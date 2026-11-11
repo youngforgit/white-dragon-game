@@ -1,0 +1,524 @@
+{
+  "frames": [
+    {
+      "file": "Cloud00.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud01.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud02.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud03.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud04.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud05.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud06.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud07.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud08.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud09.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud10.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud11.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud12.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud13.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud14.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Cloud15.png",
+      "pivotX": 0.575,
+      "pivotY": 0.10499999999999998
+    },
+    {
+      "file": "Jump00.png",
+      "pivotX": 0.28,
+      "pivotY": 0.12
+    },
+    {
+      "file": "Jump01.png",
+      "pivotX": 0.28,
+      "pivotY": 0.12
+    },
+    {
+      "file": "Jump02.png",
+      "pivotX": 0.28,
+      "pivotY": 0.12
+    },
+    {
+      "file": "Jump03.png",
+      "pivotX": 0.29,
+      "pivotY": 0.12
+    },
+    {
+      "file": "Jump04.png",
+      "pivotX": 0.27,
+      "pivotY": 0.12
+    },
+    {
+      "file": "Jump05.png",
+      "pivotX": 0.34,
+      "pivotY": 0.18000000000000005
+    },
+    {
+      "file": "Jump06.png",
+      "pivotX": 0.43,
+      "pivotY": 0.28
+    },
+    {
+      "file": "Jump07.png",
+      "pivotX": 0.5,
+      "pivotY": 0.36
+    },
+    {
+      "file": "Jump08.png",
+      "pivotX": 0.55,
+      "pivotY": 0.38
+    },
+    {
+      "file": "Jump09.png",
+      "pivotX": 0.59,
+      "pivotY": 0.42000000000000004
+    },
+    {
+      "file": "Jump10.png",
+      "pivotX": 0.66,
+      "pivotY": 0.47
+    },
+    {
+      "file": "Jump11.png",
+      "pivotX": 0.68,
+      "pivotY": 0.5700000000000001
+    },
+    {
+      "file": "Jump12.png",
+      "pivotX": 0.68,
+      "pivotY": 0.5700000000000001
+    },
+    {
+      "file": "Jump13.png",
+      "pivotX": 0.68,
+      "pivotY": 0.5700000000000001
+    },
+    {
+      "file": "Jump14.png",
+      "pivotX": 0.68,
+      "pivotY": 0.5700000000000001
+    },
+    {
+      "file": "Jump15.png",
+      "pivotX": 0.68,
+      "pivotY": 0.5700000000000001
+    },
+    {
+      "file": "Nasal00.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal01.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal02.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal03.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal04.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal05.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal06.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal07.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal08.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal09.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal10.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Nasal11.png",
+      "pivotX": 0.36,
+      "pivotY": 0.18500000000000005
+    },
+    {
+      "file": "Sleep00.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep01.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep02.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep03.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep04.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep05.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep06.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep07.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep08.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep09.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep10.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Sleep11.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Pose00.png",
+      "pivotX": 0.4,
+      "pivotY": 0.13
+    },
+    {
+      "file": "Pose01.png",
+      "pivotX": 0.4,
+      "pivotY": 0.13
+    },
+    {
+      "file": "Pose02.png",
+      "pivotX": 0.68,
+      "pivotY": 0.040000000000000036
+    },
+    {
+      "file": "Pose03.png",
+      "pivotX": 0.4,
+      "pivotY": 0.13
+    },
+    {
+      "file": "Walk00.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Walk01.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Walk02.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Walk03.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Walk04.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Walk05.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Walk06.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Walk07.png",
+      "pivotX": 0.36,
+      "pivotY": 0.235
+    },
+    {
+      "file": "Down00.png",
+      "pivotX": 0.3,
+      "pivotY": 0.45999999999999996
+    },
+    {
+      "file": "Down01.png",
+      "pivotX": 0.3,
+      "pivotY": 0.45999999999999996
+    },
+    {
+      "file": "Down02.png",
+      "pivotX": 0.32,
+      "pivotY": 0.45999999999999996
+    },
+    {
+      "file": "Down03.png",
+      "pivotX": 0.36,
+      "pivotY": 0.41000000000000003
+    },
+    {
+      "file": "Down04.png",
+      "pivotX": 0.42,
+      "pivotY": 0.31000000000000005
+    },
+    {
+      "file": "Down05.png",
+      "pivotX": 0.49,
+      "pivotY": 0.24
+    },
+    {
+      "file": "Down06.png",
+      "pivotX": 0.55,
+      "pivotY": 0.18000000000000005
+    },
+    {
+      "file": "Down07.png",
+      "pivotX": 0.6,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down08.png",
+      "pivotX": 0.63,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down09.png",
+      "pivotX": 0.65,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down10.png",
+      "pivotX": 0.66,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down11.png",
+      "pivotX": 0.67,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down12.png",
+      "pivotX": 0.68,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down13.png",
+      "pivotX": 0.69,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down14.png",
+      "pivotX": 0.69,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Down15.png",
+      "pivotX": 0.69,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Wake00.png",
+      "pivotX": 0.4,
+      "pivotY": 0.13
+    },
+    {
+      "file": "Wake01.png",
+      "pivotX": 0.4,
+      "pivotY": 0.13
+    },
+    {
+      "file": "Wake02.png",
+      "pivotX": 0.4,
+      "pivotY": 0.14
+    },
+    {
+      "file": "Wake03.png",
+      "pivotX": 0.4,
+      "pivotY": 0.15000000000000002
+    },
+    {
+      "file": "Wake04.png",
+      "pivotX": 0.4,
+      "pivotY": 0.16000000000000003
+    },
+    {
+      "file": "Wake05.png",
+      "pivotX": 0.4,
+      "pivotY": 0.17000000000000004
+    },
+    {
+      "file": "Wake06.png",
+      "pivotX": 0.4,
+      "pivotY": 0.18000000000000005
+    },
+    {
+      "file": "Wake07.png",
+      "pivotX": 0.4,
+      "pivotY": 0.18999999999999995
+    },
+    {
+      "file": "Wake08.png",
+      "pivotX": 0.4,
+      "pivotY": 0.19999999999999996
+    },
+    {
+      "file": "Wake09.png",
+      "pivotX": 0.4,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "Wake10.png",
+      "pivotX": 0.4,
+      "pivotY": 0.21999999999999997
+    },
+    {
+      "file": "Wake11.png",
+      "pivotX": 0.4,
+      "pivotY": 0.21999999999999997
+    },
+    {
+      "file": "SleepResponse00.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "SleepResponse01.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "SleepResponse02.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "SleepResponse03.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "SleepResponse04.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "SleepResponse05.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "SleepResponse06.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    },
+    {
+      "file": "SleepResponse07.png",
+      "pivotX": 0.42,
+      "pivotY": 0.20999999999999996
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "action": "低岩台往高岩台跳躍",
+  "frames": 16,
+  "normal_action_fps": 11.11,
+  "slow_action_fps": 5.56,
+  "loop": "最後停留後重新播放，重播切回起點不屬於跳躍動作",
+  "purpose": "審閱用逐格動畫草稿；未導入 Unity。未使用補幀或淡化混合。",
+  "source": "Built-in image_gen; approved white juvenile Eastern dragon reference; feline crouch-push-flight-forepaw contact-hindpaw landing."
+}
